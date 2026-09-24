@@ -23,16 +23,15 @@ Hi, I'm Phani Sri Donepudi, a CSE student and aspiring web developer. This portf
 
 ## Project Structure
 
-```text
 portfolio/
 ├── index.html
 ├── style.css
-└── assets/
-    └── img/
-        ├── profile.jpeg
-        ├── project1.svg
-        ├── project2.svg
-        └── project3.svg
+├── profile.jpeg
+├── project1.svg
+├── project2.svg
+├── project3.svg
+└── README.md
+
 ## Purpose
 
 This project was created as a personal portfolio to showcase my learning, skills, and projects in web development.
