@@ -3,194 +3,315 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal portfolio of Donepudi Phani Sri — 3rd year CSE student at Ramachandra College of Engineering.">
+  <meta name="description" content="Personal portfolio of Donepudi Phani Sri, a 3rd year Computer Science Engineering student at Ramachandra College of Engineering.">
   <title>Donepudi Phani Sri | Portfolio</title>
-  <link rel="icon" href="profile.jpeg" type="image/jpeg">
+  <link rel="icon" href="assets/img/profile.jpeg" type="image/jpeg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="70">
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#home">
-        <i class="bi bi-code-slash me-1" aria-hidden="true"></i>Donepudi Phani Sri
+      <a class="navbar-brand" href="#home" aria-label="Donepudi Phani Sri home">
+        <span class="brand-mark" aria-hidden="true">DP</span>
+        <span class="brand-name">Donepudi Phani Sri</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home" aria-current="page">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#internship">Internship</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <header id="home" class="hero d-flex align-items-center text-center text-white">
-    <div class="container">
-      <img src="profile.jpeg" alt="Profile photo of Donepudi Phani Sri" class="profile-img rounded-circle mb-4">
-      <h1 class="display-4 fw-bold mb-2">Hi, I'm Donepudi Phani Sri</h1>
-      <p class="lead mb-4">3rd Year CSE Student &amp; Web Developer</p>
-      <a href="#projects" class="btn btn-primary btn-lg px-4">View Projects</a>
-    </div>
-  </header>
-
-  <!-- About -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title text-center mb-5">About Me</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <p class="lead text-center">
-            I am a 3rd year Computer Science Engineering student at Ramachandra
-            College of Engineering, passionate about building clean, responsive web
-            applications. I enjoy turning ideas into working products using modern
-            web technologies.
-          </p>
-          <p class="text-center">
-            My career interests include full-stack development, UI/UX design, and cloud
-            computing. I am always learning and exploring new tools to grow as a developer.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education -->
-  <section id="education" class="section bg-light">
-    <div class="container">
-      <h2 class="section-title text-center mb-5">Education</h2>
-      <div class="table-responsive">
-        <table class="table table-bordered table-hover align-middle text-center">
-          <thead class="table-dark">
-            <tr>
-              <th scope="col">Qualification</th>
-              <th scope="col">Institution</th>
-              <th scope="col">Year</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>B.Tech in Computer Science Engineering</td>
-              <td>Ramachandra College of Engineering</td>
-              <td>2022 – 2026</td>
-            </tr>
-            <tr>
-              <td>Intermediate (Class XII)</td>
-              <td>Sri Chaitanya Junior College, Eluru</td>
-              <td>2020 – 2022</td>
-            </tr>
-            <tr>
-              <td>Secondary School (Class X)</td>
-              <td>Siddhartha Quest CBSE School, Eluru</td>
-              <td>2020</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2 class="section-title text-center mb-5">Projects</h2>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="card project-card h-100 shadow-sm">
-            <img src="project1.svg" class="card-img-top project-img" alt="Node and Express web app screenshot">
-            <div class="card-body">
-              <h3 class="card-title fw-bold">Express Web App</h3>
-              <p class="card-text">
-                A full-stack web application built with Node.js and Express featuring
-                RESTful routes, server-side rendering, and a user-friendly interface.
-              </p>
+  <main id="main-content">
+    <header id="home" class="hero d-flex align-items-center text-white">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="hero-copy">
+              <p class="hero-kicker">3rd Year CSE Student</p>
+              <h1>Donepudi Phani Sri</h1>
+              <p class="hero-lead">Passionate about web development and building practical applications.</p>
+              <div class="hero-actions d-flex flex-wrap gap-3">
+                <a href="#projects" class="btn btn-primary btn-lg">View Projects</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg">Get in touch</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card project-card h-100 shadow-sm">
-            <img src="project2.svg" class="card-img-top project-img" alt="Flutter lab project screenshot">
-            <div class="card-body">
-              <h3 class="card-title fw-bold">Flutter Mobile App</h3>
-              <p class="card-text">
-                A cross-platform mobile interface built with Flutter, focusing on
-                widget composition, state management, and responsive layouts.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card project-card h-100 shadow-sm">
-            <img src="project3.svg" class="card-img-top project-img" alt="Portfolio website screenshot">
-            <div class="card-body">
-              <h3 class="card-title fw-bold">Personal Portfolio</h3>
-              <p class="card-text">
-                This responsive single-page portfolio built with HTML5, CSS3, and
-                Bootstrap 5 to showcase my profile, skills, and projects.
-              </p>
+          <div class="col-lg-5">
+            <div class="profile-frame mx-auto">
+              <img src="assets/img/profile.jpeg" alt="Profile photo of Donepudi Phani Sri" class="profile-img">
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Contact -->
-  <section id="contact" class="section bg-light">
-    <div class="container">
-      <h2 class="section-title text-center mb-5">Contact</h2>
-      <div class="row justify-content-center g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="card contact-card h-100 text-center shadow-sm">
-            <div class="card-body">
-              <i class="bi bi-envelope-fill contact-icon" aria-hidden="true"></i>
-              <h3 class="card-title fw-bold">Email</h3>
-              <a href="mailto:phanisridonepudi1679@gmail.com" class="stretched-link">phanisridonepudi1679@gmail.com</a>
-            </div>
+    <section id="about" class="section section-muted" aria-labelledby="about-title">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 id="about-title" class="section-title text-center mb-4">About Me</h2>
+            <p class="section-lead text-center">
+              I am a 3rd year Computer Science Engineering student at Ramachandra College of Engineering,
+              passionate about web development and building practical applications.
+            </p>
+            <p class="text-center mb-0">
+              I am currently learning modern web and application development technologies and improving my
+              programming and development skills through projects and internships.
+            </p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card contact-card h-100 text-center shadow-sm">
-            <div class="card-body">
-              <i class="bi bi-telephone-fill contact-icon" aria-hidden="true"></i>
-              <h3 class="card-title fw-bold">Phone</h3>
-              <a href="tel:+919030143595" class="stretched-link">+91 90301 43595</a>
+      </div>
+    </section>
+
+    <section id="education" class="section" aria-labelledby="education-title">
+      <div class="container">
+        <h2 id="education-title" class="section-title text-center mb-5">Education</h2>
+        <div class="table-responsive">
+          <table class="table education-table align-middle text-center">
+            <caption class="visually-hidden">Educational qualifications and academic years</caption>
+            <thead>
+              <tr>
+                <th scope="col">Qualification</th>
+                <th scope="col">Institution</th>
+                <th scope="col">Details</th>
+                <th scope="col">Academic Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="qualification">B.Tech</td>
+                <td>Ramachandra College of Engineering</td>
+                <td>Computer Science Engineering (CSE), 3rd Year</td>
+                <td>2024 – 2028</td>
+              </tr>
+              <tr>
+                <td class="qualification">Intermediate</td>
+                <td>Sri Chaitanya Junior College</td>
+                <td>—</td>
+                <td>2022 – 2024</td>
+              </tr>
+              <tr>
+                <td class="qualification">SSC</td>
+                <td>Siddhartha Quest</td>
+                <td>—</td>
+                <td>2011 – 2022</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-muted" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title text-center mb-5">Skills</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <div class="skill-icon" aria-hidden="true"><i class="bi bi-code-slash"></i></div>
+              <h3>Programming Languages</h3>
+              <ul class="skill-list">
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+              </ul>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card contact-card h-100 text-center shadow-sm">
-            <div class="card-body">
-              <i class="bi bi-linkedin contact-icon" aria-hidden="true"></i>
-              <h3 class="card-title fw-bold">LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/phani-sri-donepudi-95184a354" target="_blank" rel="noopener noreferrer" class="stretched-link">linkedin.com/in/phani-sri-donepudi-95184a354</a>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <div class="skill-icon" aria-hidden="true"><i class="bi bi-globe2"></i></div>
+              <h3>Web Technologies</h3>
+              <ul class="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card learning-card h-100">
+              <div class="skill-icon" aria-hidden="true"><i class="bi bi-lightbulb"></i></div>
+              <h3>Currently Learning</h3>
+              <ul class="skill-list">
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Flutter</li>
+                <li>Dart</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <div class="skill-icon" aria-hidden="true"><i class="bi bi-tools"></i></div>
+              <h3>Tools</h3>
+              <ul class="skill-list">
+                <li>VS Code</li>
+                <li>OpenCode</li>
+                <li>GitHub</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="section-title text-center mb-5">Projects</h2>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="card project-card h-100">
+              <div class="project-card-header">
+                <i class="bi bi-phone project-card-icon" aria-hidden="true"></i>
+                <span>Project</span>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Flutter Shopping App</h3>
+                <p class="card-text">
+                  A Flipkart-style shopping application developed using Flutter, featuring product categories,
+                  product browsing, search functionality, and profile-related features.
+                </p>
+                <div class="technology-list" aria-label="Technologies used in Flutter Shopping App">
+                  <span class="tech-badge">Flutter</span>
+                  <span class="tech-badge">Dart</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="card project-card h-100">
+              <div class="project-card-header">
+                <i class="bi bi-window-stack project-card-icon" aria-hidden="true"></i>
+                <span>Project</span>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Personal Portfolio</h3>
+                <p class="card-text">
+                  A responsive personal portfolio website created to showcase my profile, education, skills,
+                  projects, and contact information.
+                </p>
+                <div class="technology-list" aria-label="Technologies used in Personal Portfolio">
+                  <span class="tech-badge">HTML</span>
+                  <span class="tech-badge">CSS</span>
+                  <span class="tech-badge">Bootstrap</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="internship" class="section section-muted" aria-labelledby="internship-title">
+      <div class="container">
+        <h2 id="internship-title" class="section-title text-center mb-5">Internship</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <article class="internship-card">
+              <div class="internship-status"><span aria-hidden="true"></span>Current web development internship experience</div>
+              <h3>Web Development Intern</h3>
+              <p class="internship-organization">Glologics</p>
+              <div class="internship-details">
+                <div>
+                  <span class="internship-label">Duration</span>
+                  <strong><time datetime="2026-05-21">21 May 2026</time> – <time datetime="2026-09-30">30 September 2026</time></strong>
+                </div>
+                <div>
+                  <span class="internship-label">Work / Project</span>
+                  <strong>Personal Portfolio Website</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title text-center mb-5">Contact</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card contact-card h-100 text-center">
+              <div class="card-body">
+                <div class="contact-icon" aria-hidden="true"><i class="bi bi-envelope-fill"></i></div>
+                <h3 class="card-title">Email</h3>
+                <a href="mailto:phanisridonepudi1679@gmail.com" class="contact-link">phanisridonepudi1679@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card contact-card h-100 text-center">
+              <div class="card-body">
+                <div class="contact-icon" aria-hidden="true"><i class="bi bi-telephone-fill"></i></div>
+                <h3 class="card-title">Phone</h3>
+                <a href="tel:9030143595" class="contact-link">9030143595</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card contact-card h-100 text-center">
+              <div class="card-body">
+                <div class="contact-icon" aria-hidden="true"><i class="bi bi-linkedin"></i></div>
+                <h3 class="card-title">LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/phani-sri-donepudi-95184a354" target="_blank" rel="noopener noreferrer" class="contact-link">phani-sri-donepudi</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card contact-card h-100 text-center">
+              <div class="card-body">
+                <div class="contact-icon" aria-hidden="true"><i class="bi bi-github"></i></div>
+                <h3 class="card-title">GitHub</h3>
+                <a href="https://github.com/phanisri-donepudi" target="_blank" rel="noopener noreferrer" class="contact-link">phanisri-donepudi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <footer class="footer text-center text-white py-4">
     <div class="container">
-      <p class="mb-0">&copy; <span id="year"></span> Donepudi Phani Sri. All rights reserved.</p>
+      <p class="mb-2 fw-semibold">Donepudi Phani Sri</p>
+      <p class="mb-0 footer-meta">&copy; <span id="year"></span> All rights reserved.</p>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    document.querySelectorAll("#navbarNav .nav-link").forEach(function (link) {
+      link.addEventListener("click", function () {
+        var navigation = document.getElementById("navbarNav");
+        if (window.bootstrap && navigation.classList.contains("show")) {
+          var collapse = window.bootstrap.Collapse.getInstance(navigation);
+          if (collapse) {
+            collapse.hide();
+          }
+        }
+      });
+    });
   </script>
 </body>
 </html>
